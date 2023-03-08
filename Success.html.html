@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Success.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #e8bf6a;}
+.s2 { color: #bababa;}
+.s3 { color: #a9b7c6;}
+.s4 { color: #e8bf6a;}
+.s5 { color: #bababa;}
+.s6 { color: #6a8759;}
+.s7 { color: #6897bb;}
+.s8 { color: #a5c261;}
+.s9 { color: #cc7832;}
+.s10 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Success.html</font>
+</center></td></tr></table>
+<pre><span class="s0">{% </span><span class="s1">load </span><span class="s2">static </span><span class="s0">%}</span>
+<span class="s4">&lt;!DOCTYPE </span><span class="s5">html</span><span class="s4">&gt;</span>
+<span class="s4">&lt;html&gt;</span>
+  <span class="s4">&lt;head&gt;</span>
+<span class="s0">{% </span><span class="s1">include </span><span class="s6">'head.html' </span><span class="s0">%}</span>
+    <span class="s4">&lt;style&gt;</span>
+        <span class="s3">.</span><span class="s4">section1</span><span class="s3">{</span>
+            <span class="s5">min-height</span><span class="s3">: </span><span class="s7">45</span><span class="s8">vh</span><span class="s9">;</span>
+        <span class="s3">}</span>
+        <span class="s3">.</span><span class="s4">fa-smile-o</span><span class="s3">{</span>
+            <span class="s5">text-align</span><span class="s3">: </span><span class="s8">center</span><span class="s9">;</span>
+            <span class="s5">margin</span><span class="s3">: </span><span class="s7">0</span><span class="s8">px auto</span><span class="s9">;</span>
+            <span class="s5">font-weight</span><span class="s3">: </span><span class="s7">100</span><span class="s9">;</span>
+            <span class="s5">font-size</span><span class="s3">: </span><span class="s7">100</span><span class="s8">px</span><span class="s9">;</span>
+        <span class="s3">}</span>
+      <span class="s3">.</span><span class="s4">message-container </span><span class="s3">{</span>
+        <span class="s5">text-align</span><span class="s3">: </span><span class="s8">center</span><span class="s9">;</span>
+        <span class="s5">margin</span><span class="s3">: </span><span class="s7">100</span><span class="s8">px auto</span><span class="s9">;</span>
+      <span class="s3">}</span>
+      <span class="s3">.</span><span class="s4">success </span><span class="s3">{</span>
+        <span class="s5">font-size</span><span class="s3">: </span><span class="s7">40</span><span class="s8">px</span><span class="s9">;</span>
+        <span class="s5">font-weight</span><span class="s3">: </span><span class="s8">bold</span><span class="s9">;</span>
+      <span class="s3">}</span>
+      <span class="s3">.</span><span class="s4">sub-message </span><span class="s3">{</span>
+        <span class="s5">font-size</span><span class="s3">: </span><span class="s7">20</span><span class="s8">px</span><span class="s9">;</span>
+        <span class="s5">margin-top</span><span class="s3">: </span><span class="s7">20</span><span class="s8">px</span><span class="s9">;</span>
+      <span class="s3">}</span>
+      <span class="s3">.</span><span class="s4">turn-back </span><span class="s3">{</span>
+        <span class="s5">margin-top</span><span class="s3">: </span><span class="s7">20</span><span class="s8">px</span><span class="s9">;</span>
+        <span class="s5">padding</span><span class="s3">: </span><span class="s7">10</span><span class="s8">px </span><span class="s7">20</span><span class="s8">px</span><span class="s9">;</span>
+        <span class="s5">background-color</span><span class="s3">: </span><span class="s7">#000</span><span class="s9">;</span>
+        <span class="s5">border</span><span class="s3">: </span><span class="s8">none</span><span class="s9">;</span>
+        <span class="s5">border-radius</span><span class="s3">: </span><span class="s7">5</span><span class="s8">px</span><span class="s9">;</span>
+        <span class="s5">cursor</span><span class="s3">: </span><span class="s8">pointer</span><span class="s9">;</span>
+          <span class="s5">width</span><span class="s3">: </span><span class="s7">200</span><span class="s8">px</span><span class="s9">;</span>
+      <span class="s3">}</span>
+    <span class="s4">&lt;/style&gt;</span>
+
+  <span class="s4">&lt;/head&gt;</span>
+  <span class="s4">&lt;body&gt;</span>
+  <span class="s4">&lt;section </span><span class="s5">class</span><span class="s8">=&quot;section1&quot;</span><span class="s4">&gt;</span>
+    <span class="s4">&lt;div </span><span class="s5">class</span><span class="s8">=&quot;message-container&quot;</span><span class="s4">&gt;</span>
+        <span class="s4">&lt;i </span><span class="s5">class</span><span class="s8">=&quot;fa fa-smile-o&quot; </span><span class="s5">aria-hidden</span><span class="s8">=&quot;true&quot;</span><span class="s4">&gt;&lt;/i&gt;</span>
+      <span class="s4">&lt;div </span><span class="s5">class</span><span class="s8">=&quot;success&quot;</span><span class="s4">&gt;</span><span class="s3">Success!</span><span class="s4">&lt;/div&gt;</span>
+      <span class="s4">&lt;div </span><span class="s5">class</span><span class="s8">=&quot;sub-message&quot;</span><span class="s4">&gt;</span><span class="s3">We will contact you within 24 hours.</span><span class="s4">&lt;/div&gt;</span>
+      <span class="s4">&lt;button </span><span class="s5">class</span><span class="s8">=&quot;turn-back&quot; </span><span class="s5">onclick</span><span class="s8">=&quot;</span><span class="s3">location.href=</span><span class="s10">'/index/'</span><span class="s8">&quot;</span><span class="s4">&gt;</span><span class="s3">Return to Home Page</span><span class="s4">&lt;/button&gt;</span>
+    <span class="s4">&lt;/div&gt;</span>
+  <span class="s4">&lt;/section&gt;</span>
+  <span class="s4">&lt;footer&gt;</span>
+                <span class="s0">{% </span><span class="s1">include </span><span class="s6">'footer.html' </span><span class="s0">%}</span>
+            <span class="s4">&lt;/footer&gt;</span>
+  <span class="s0">{% </span><span class="s1">include </span><span class="s6">'script.html' </span><span class="s0">%}</span>
+  <span class="s4">&lt;/body&gt;</span>
+<span class="s4">&lt;/html&gt;</span>
+</pre>
+</body>
+</html>

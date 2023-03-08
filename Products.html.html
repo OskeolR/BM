@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>Products.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #e8bf6a;}
+.s2 { color: #bababa;}
+.s3 { color: #a9b7c6;}
+.s4 { color: #e8bf6a;}
+.s5 { color: #a9b7c6;}
+.s6 { color: #bababa;}
+.s7 { color: #6a8759;}
+.s8 { color: #a5c261;}
+.s9 { color: #808080;}
+.s10 { color: #6897bb;}
+.s11 { color: #cc7832;}
+.s12 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Products.html</font>
+</center></td></tr></table>
+<pre><span class="s0">{% </span><span class="s1">load </span><span class="s2">static </span><span class="s0">%}</span>
+<span class="s4">&lt;!DocType</span><span class="s5">r </span><span class="s6">html</span><span class="s4">&gt;</span>
+<span class="s4">&lt;html&gt;</span>
+    <span class="s4">&lt;head&gt;</span>
+      <span class="s0">{% </span><span class="s1">include </span><span class="s7">'head.html' </span><span class="s0">%}</span>
+    <span class="s4">&lt;/head&gt;</span>
+    <span class="s4">&lt;body&gt;</span>
+        <span class="s4">&lt;header </span><span class="s6">class</span><span class="s8">=&quot;nav-relative&quot;</span><span class="s4">&gt;</span>
+            <span class="s0">{% </span><span class="s1">include </span><span class="s7">'navbar.html' </span><span class="s0">%}</span>
+            <span class="s4">&lt;title&gt;</span><span class="s3">Product B|M</span><span class="s4">&lt;/title&gt;</span>
+        <span class="s4">&lt;/header&gt;</span>
+<span class="s9">&lt;!-- First Section --&gt;</span>
+            <span class="s4">&lt;section </span><span class="s6">class</span><span class="s8">=&quot;section&quot; </span><span class="s6">id</span><span class="s8">=&quot;section1&quot;</span><span class="s4">&gt;</span>
+            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;container-one&quot;</span><span class="s4">&gt;</span>
+                <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;flex-prod&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;width&quot;</span><span class="s4">&gt;</span>
+                         <span class="s9">&lt;!-- Swiper --&gt;</span>
+                        <span class="s4">&lt;div</span>
+                          <span class="s6">style</span><span class="s8">=&quot;</span><span class="s6">--swiper-navigation-color</span><span class="s3">: </span><span class="s10">#fff</span><span class="s11">; </span><span class="s6">--swiper-pagination-color</span><span class="s3">: </span><span class="s10">#fff</span><span class="s8">&quot;</span>
+                          <span class="s6">class</span><span class="s8">=&quot;swiper mySwiper2&quot;</span>
+                        <span class="s4">&gt;</span>
+                          <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;swiper-wrapper&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;swiper-slide&quot;</span><span class="s4">&gt;</span>
+                              <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/22.jpg&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;/div&gt;</span>
+                            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;swiper-slide&quot;</span><span class="s4">&gt;</span>
+                              <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/22.1.jpg&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;/div&gt;</span>
+                            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;swiper-slide&quot;</span><span class="s4">&gt;</span>
+                              <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/22.2.jpg&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;/div&gt;</span>
+                            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;swiper-slide&quot;</span><span class="s4">&gt;</span>
+                              <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/22.3.jpg&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;/div&gt;</span>
+                          <span class="s4">&lt;/div&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">thumbsSlider</span><span class="s8">=&quot;&quot; </span><span class="s6">class</span><span class="s8">=&quot;swiper mySwiper&quot;</span><span class="s4">&gt;</span>
+                          <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;swiper-wrapper&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;swiper-slide&quot;</span><span class="s4">&gt;</span>
+                              <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/22.jpg&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;/div&gt;</span>
+                            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;swiper-slide&quot;</span><span class="s4">&gt;</span>
+                              <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/22.1.jpg&quot;</span><span class="s4">/&gt;</span>
+                            <span class="s4">&lt;/div&gt;</span>
+                            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;swiper-slide&quot;</span><span class="s4">&gt;</span>
+                              <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/22.2.jpg&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;/div&gt;</span>
+                            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;swiper-slide&quot;</span><span class="s4">&gt;</span>
+                              <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/22.3.jpg&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;/div&gt;</span>
+                          <span class="s4">&lt;/div&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;div&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;exp&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;h6 </span><span class="s6">class</span><span class="s8">=&quot;m1&quot;</span><span class="s4">&gt;</span><span class="s3">AMOUAGE</span><span class="s4">&lt;/h6&gt;</span>
+                            <span class="s4">&lt;h6 </span><span class="s6">class</span><span class="s8">=&quot;m2&quot;</span><span class="s4">&gt;</span><span class="s3">BOUNDLESS 100 ML </span><span class="s4">&lt;span&gt;&lt;i </span><span class="s6">class</span><span class="s8">=&quot;fa yes fa-heart-o&quot; </span><span class="s6">aria-hidden</span><span class="s8">=&quot;true&quot;</span><span class="s4">&gt;&lt;/i&gt;&lt;/span&gt;&lt;/h6&gt;</span>
+                            <span class="s4">&lt;h6 </span><span class="s6">class</span><span class="s8">=&quot;m3&quot;</span><span class="s4">&gt;</span><span class="s3">$360 </span><span class="s4">&lt;span&gt;</span><span class="s3">IN STOCK</span><span class="s4">&lt;/span&gt;&lt;/h6&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                        <span class="s4">&lt;hr&gt;</span>
+                        <span class="s4">&lt;form&gt;</span>
+                            <span class="s4">&lt;label </span><span class="s6">id</span><span class="s8">=&quot;label1&quot;</span><span class="s4">&gt;</span><span class="s3">QTY</span><span class="s4">&lt;/label&gt;</span>
+                            <span class="s4">&lt;br&gt;</span>
+                            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;input&quot;</span><span class="s4">&gt;&lt;h2&gt;</span><span class="s3">-</span><span class="s4">&lt;/h2&gt;&lt;h2&gt;</span><span class="s3">1</span><span class="s4">&lt;/h2&gt;&lt;h2&gt;</span><span class="s3">+</span><span class="s4">&lt;/h2&gt;&lt;/div&gt;</span>
+                            <span class="s4">&lt;br&gt;</span>
+                            <span class="s4">&lt;input </span><span class="s6">type</span><span class="s8">=&quot;checkbox&quot;</span><span class="s4">&gt; &lt;label&gt;</span><span class="s3">Make it a Gift</span><span class="s4">&lt;/label&gt;</span>
+                            <span class="s4">&lt;br&gt;</span>
+                             <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;display-flex1&quot;</span><span class="s4">&gt;</span>
+                                <span class="s4">&lt;a&gt;</span><span class="s3">ADD TO BAG</span><span class="s4">&lt;/a&gt; </span>
+                                <span class="s4">&lt;a&gt;</span><span class="s3">BUY NOW</span><span class="s4">&lt;/a&gt;</span>
+                            <span class="s4">&lt;/div&gt;</span>
+                        <span class="s4">&lt;/form&gt;</span>
+                        <span class="s4">&lt;h6&gt;&lt;a </span><span class="s6">class</span><span class="s8">=&quot;learnm&quot;</span><span class="s4">&gt;</span><span class="s3">LEARN MORE ABOUT BOUNDLESS</span><span class="s4">&lt;/a&gt;&lt;/h6&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+        <span class="s4">&lt;/section&gt;</span>
+        <span class="s4">&lt;hr&gt;</span>
+        <span class="s9">&lt;!-- End of First Section --&gt;</span>
+        <span class="s9">&lt;!-- Contact Section --&gt;</span>
+        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;contact&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s6">class</span><span class="s8">=&quot;whatsapp&quot; </span><span class="s6">href</span><span class="s8">=&quot;https://wa.me/0692030191&quot; </span><span class="s6">target</span><span class="s8">=&quot;_blank&quot;</span><span class="s4">&gt;&lt;i </span><span class="s6">class</span><span class="s8">=&quot;fa fa-whatsapp&quot; </span><span class="s6">aria-hidden</span><span class="s8">=&quot;true&quot;</span><span class="s4">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+    <span class="s9">&lt;!-- End of Third Section --&gt;</span>
+         <span class="s9">&lt;!-- Second Section --&gt;</span>
+        <span class="s4">&lt;section </span><span class="s6">class</span><span class="s8">=&quot;section&quot; </span><span class="s6">id</span><span class="s8">=&quot;section3&quot;</span><span class="s4">&gt;</span>
+            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;container-one&quot;</span><span class="s4">&gt;</span>
+                <span class="s4">&lt;h4 </span><span class="s6">style</span><span class="s8">=&quot;</span><span class="s6">text-align</span><span class="s3">: </span><span class="s8">center</span><span class="s11">;</span><span class="s8">&quot;</span><span class="s4">&gt;</span><span class="s3">FIND MORE</span><span class="s4">&lt;/h4&gt;</span>
+                <span class="s4">&lt;h1&gt;</span><span class="s3">YOU MAY ALSO LIKE</span><span class="s4">&lt;/h1&gt;</span>
+                <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;div-brand&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s6">href</span><span class="s8">=&quot;&quot;</span><span class="s4">&gt;</span><span class="s3">VERSACE</span><span class="s4">&lt;/a&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s6">href</span><span class="s8">=&quot;&quot;</span><span class="s4">&gt;</span><span class="s3">BYREDO</span><span class="s4">&lt;/a&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s6">href</span><span class="s8">=&quot;&quot;</span><span class="s4">&gt;</span><span class="s3">TOM FORD</span><span class="s4">&lt;/a&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s6">href</span><span class="s8">=&quot;&quot;</span><span class="s4">&gt;</span><span class="s3">DOLCE &amp; GABANNA</span><span class="s4">&lt;/a&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s6">href</span><span class="s8">=&quot;&quot;</span><span class="s4">&gt;</span><span class="s3">GUCCI</span><span class="s4">&lt;/a&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;brand-item&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-content&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-img&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/16.png&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-text&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;h4&gt;</span><span class="s3">EROS</span><span class="s4">&lt;/h4&gt;</span>
+                            <span class="s4">&lt;p&gt;</span><span class="s3">Versace Eros Pour Home Eau de Toilette </span><span class="s4">&lt;/p&gt;</span>
+                            <span class="s4">&lt;h6 </span><span class="s6">class</span><span class="s8">=&quot;mb-0&quot;</span><span class="s4">&gt;</span><span class="s3">76€</span><span class="s4">&lt;/h6&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-content&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-img&quot;</span><span class="s4">&gt;</span>
+                             <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/36.png&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-text&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;h4&gt;</span><span class="s3">BAL D'AFRIQUE</span><span class="s4">&lt;/h4&gt;</span>
+                            <span class="s4">&lt;p&gt;</span><span class="s3">Byredo Bal D'Afrique Eau De Parfum</span><span class="s4">&lt;/p&gt;</span>
+                            <span class="s4">&lt;h6 </span><span class="s6">class</span><span class="s8">=&quot;mb-0&quot;</span><span class="s4">&gt;</span><span class="s3">140€</span><span class="s4">&lt;/h6&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-content&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-img&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/15.png&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-text&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;h4&gt;</span><span class="s3">OUD WOOD</span><span class="s4">&lt;/h4&gt;</span>
+                            <span class="s4">&lt;p&gt;</span><span class="s3">Tom Ford oud wood eau de parfum</span><span class="s4">&lt;/p&gt;</span>
+                            <span class="s4">&lt;h6 </span><span class="s6">class</span><span class="s8">=&quot;mb-0&quot;</span><span class="s4">&gt;</span><span class="s3">179€</span><span class="s4">&lt;/h6&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-content&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-img&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/13.png&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-text&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;h4&gt;</span><span class="s3">K by Dolce&amp;Gabbana</span><span class="s4">&lt;/h4&gt;</span>
+                            <span class="s4">&lt;p&gt;</span><span class="s3">K by Dolce&amp;Gabbana Eau de Parfum </span><span class="s4">&lt;/p&gt;</span>
+                            <span class="s4">&lt;h6&gt;</span><span class="s3">80€</span><span class="s4">&lt;/h6&gt;</span>
+
+                        <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-content&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-img&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;img </span><span class="s6">src</span><span class="s8">=&quot;img/27.jpg&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;item-text&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;h4&gt;</span><span class="s3">Guilty</span><span class="s4">&lt;/h4&gt;</span>
+                            <span class="s4">&lt;p&gt;</span><span class="s3">Gucci Guilty Eau de Parfum</span><span class="s4">&lt;/p&gt;</span>
+                            <span class="s4">&lt;h6 </span><span class="s6">class</span><span class="s8">=&quot;mb-0&quot;</span><span class="s4">&gt;</span><span class="s3">167€</span><span class="s4">&lt;/h6&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+            <span class="s4">&lt;/div&gt;</span>
+        <span class="s4">&lt;/section&gt;</span>
+       
+    <span class="s9">&lt;!-- End of Second Section --&gt;</span>
+        <span class="s9">&lt;!-- Footer --&gt;</span>
+         <span class="s4">&lt;footer&gt;</span>
+             <span class="s0">{% </span><span class="s1">include </span><span class="s7">'footer.html' </span><span class="s0">%}</span>
+            <span class="s4">&lt;/footer&gt;</span>
+        <span class="s9">&lt;!-- End of Footer --&gt;</span>
+            
+<span class="s9">&lt;!--</span>
+          <span class="s9">Initialize Swiper  
+        &lt;script src=&quot;https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js&quot;&gt;&lt;/script&gt; 
+            &lt;script&gt; 
+              var swiper = new Swiper(&quot;.mySwiper&quot;, { 
+                effect: &quot;coverflow&quot;, 
+                grabCursor: true, 
+                centeredSlides: true, 
+                slidesPerView: &quot;auto&quot;, 
+                coverflowEffect: { 
+                  rotate: 20, 
+                  stretch: 20, 
+                  depth: 100, 
+                  modifier: 1, 
+                  slideShadows: false, 
+                }, 
+                pagination: { 
+                  el: &quot;.swiper-pagination&quot;, 
+                }, 
+                  loop: true, 
+                  autoplay:{ 
+                      delay: 2000, 
+                  } 
+              }); 
+                 
+            &lt;/script&gt; 
+--&gt;</span>
+                  <span class="s9">&lt;!-- Swiper JS --&gt;</span>
+    <span class="s4">&lt;script </span><span class="s6">src</span><span class="s8">=&quot;https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js&quot;</span><span class="s4">&gt;&lt;/script&gt;</span>
+
+    <span class="s9">&lt;!-- Initialize Swiper --&gt;</span>
+    <span class="s4">&lt;script&gt;</span>
+      <span class="s11">var </span><span class="s3">swiper = </span><span class="s11">new </span><span class="s3">Swiper(</span><span class="s12">&quot;.mySwiper&quot;</span><span class="s11">, </span><span class="s3">{</span>
+        <span class="s3">loop: </span><span class="s11">true,</span>
+        <span class="s3">spaceBetween: </span><span class="s10">10</span><span class="s11">,</span>
+        <span class="s3">slidesPerView: </span><span class="s10">4</span><span class="s11">,</span>
+        <span class="s3">freeMode: </span><span class="s11">true,</span>
+        <span class="s3">watchSlidesProgress: </span><span class="s11">true,</span>
+      <span class="s3">})</span><span class="s11">;</span>
+      <span class="s11">var </span><span class="s3">swiper2 = </span><span class="s11">new </span><span class="s3">Swiper(</span><span class="s12">&quot;.mySwiper2&quot;</span><span class="s11">, </span><span class="s3">{</span>
+        <span class="s3">loop: </span><span class="s11">true,</span>
+        <span class="s3">spaceBetween: </span><span class="s10">10</span><span class="s11">,</span>
+        <span class="s3">navigation: {</span>
+          <span class="s3">nextEl: </span><span class="s12">&quot;.swiper-button-next&quot;</span><span class="s11">,</span>
+          <span class="s3">prevEl: </span><span class="s12">&quot;.swiper-button-prev&quot;</span><span class="s11">,</span>
+        <span class="s3">}</span><span class="s11">,</span>
+        <span class="s3">thumbs: {</span>
+          <span class="s3">swiper: swiper</span><span class="s11">,</span>
+        <span class="s3">}</span><span class="s11">,</span>
+      <span class="s3">})</span><span class="s11">;</span>
+    <span class="s4">&lt;/script&gt;</span>
+    <span class="s4">&lt;/body&gt;</span></pre>
+</body>
+</html>

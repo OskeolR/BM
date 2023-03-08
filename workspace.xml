@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="307397a9-88b3-4681-b579-2f62af6fa0e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/BMProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BMProject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BMProject/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BMProject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BMProject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BMProject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/0002_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/0003_product_female.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/0004_footer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/0005_contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/0006_payment_sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/0007_rename_sub_subscribe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/0008_rename_creditcard_payment_creditcard_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/0009_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/0010_remove_register_username.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/0011_rename_register_registeruser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleApp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/All.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/All_female.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/INDEX.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/MEN.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/Products.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/Success.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/footer.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/form.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/head.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/navbar.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/payment-getway.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/projektBM.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/script.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/projektBM.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/13_CjaJTOa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/13_v0rfkpt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/14_fyzbZWY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/15_In77aeN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/15_oFNrq7D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/16_DXcbx4Z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/16_ejvnU7E.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/16_xls2E5o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/17_tnxmja8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/18.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/18.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/18_8F6ZbWc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/19.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/19.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/1_GP3X9my.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/20.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/20.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/20_5liIwx1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/21_aHUUGPz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/22.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/22.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/22.3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/22_3pz3wO6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/22_XQLAHkl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/22_lTtdHhY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/23.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/23.1_V91QntA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/26.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/26.1_hCmMiVx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/27_cvrOWeb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/27_rQSErSa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/31.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/32_kzHK3zt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/33_LKeM12i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/34.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/34_Chs33ro.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/35_eyULYlg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/3_080yCDN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/3_Oxd3yHU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/4_v9EcNnS.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/5_8ungt7G.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/6_m6rUlEu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/BG-VID.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Video1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/vid.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/All.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/All_female.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/INDEX.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/MEN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/RegisterForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/payment-getway.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/projektBM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/script.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KsHHv3H3Brm8KD8AJ00gqu6QNR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/PycharmProjects/BMProject/static/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\PycharmProjects\BMProject\static\images" />
+      <recent name="C:\Users\USER\PycharmProjects\BMProject\templates" />
+      <recent name="C:\Users\USER\PycharmProjects\BMProject\static\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BMProject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="BMProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="307397a9-88b3-4681-b579-2f62af6fa0e3" name="Changes" comment="" />
+      <created>1674756285784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674756285784</updated>
+      <workItem from="1674756333273" duration="10785000" />
+      <workItem from="1674836850113" duration="2175000" />
+      <workItem from="1674856740260" duration="1238000" />
+      <workItem from="1675110292663" duration="3015000" />
+      <workItem from="1675175210738" duration="1133000" />
+      <workItem from="1675189869364" duration="8093000" />
+      <workItem from="1675352332704" duration="3501000" />
+      <workItem from="1675361730857" duration="10227000" />
+      <workItem from="1675699679956" duration="8908000" />
+      <workItem from="1675722909179" duration="2958000" />
+      <workItem from="1675734992801" duration="759000" />
+      <workItem from="1675781547745" duration="7949000" />
+      <workItem from="1675808256254" duration="1995000" />
+      <workItem from="1675817650734" duration="1064000" />
+      <workItem from="1675872086812" duration="4532000" />
+      <workItem from="1675899637312" duration="31000" />
+      <workItem from="1675962146653" duration="1197000" />
+      <workItem from="1675964152158" duration="9000" />
+      <workItem from="1675964455541" duration="270000" />
+      <workItem from="1675967093728" duration="8071000" />
+      <workItem from="1675978071840" duration="1151000" />
+      <workItem from="1675987873157" duration="750000" />
+      <workItem from="1676038003237" duration="392000" />
+      <workItem from="1676055241723" duration="102000" />
+      <workItem from="1676068987545" duration="1113000" />
+      <workItem from="1676117385611" duration="468000" />
+      <workItem from="1676133810079" duration="593000" />
+      <workItem from="1676224189919" duration="228000" />
+      <workItem from="1676311128112" duration="3185000" />
+      <workItem from="1676329151881" duration="1090000" />
+      <workItem from="1676389475249" duration="10930000" />
+      <workItem from="1676477913219" duration="1496000" />
+      <workItem from="1676485830810" duration="9989000" />
+      <workItem from="1676645178689" duration="2936000" />
+      <workItem from="1676663235727" duration="1510000" />
+      <workItem from="1676664791740" duration="632000" />
+      <workItem from="1676748541947" duration="1788000" />
+      <workItem from="1676904743008" duration="4407000" />
+      <workItem from="1676924571868" duration="2226000" />
+      <workItem from="1676926847154" duration="54340000" />
+      <workItem from="1677698280244" duration="1864000" />
+      <workItem from="1677757679899" duration="849000" />
+      <workItem from="1678037084066" duration="149000" />
+      <workItem from="1678269893873" duration="2796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BMProject/urls.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

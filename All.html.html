@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>All.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #e8bf6a;}
+.s2 { color: #bababa;}
+.s3 { color: #a9b7c6;}
+.s4 { color: #e8bf6a;}
+.s5 { color: #a9b7c6;}
+.s6 { color: #bababa;}
+.s7 { color: #6a8759;}
+.s8 { color: #a5c261;}
+.s9 { color: #808080;}
+.s10 { color: #cc7832;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+All.html</font>
+</center></td></tr></table>
+<pre><span class="s0">{% </span><span class="s1">load </span><span class="s2">static </span><span class="s0">%}</span>
+<span class="s4">&lt;!DocType</span><span class="s5">r </span><span class="s6">html</span><span class="s4">&gt;</span>
+<span class="s4">&lt;html&gt;</span>
+    <span class="s4">&lt;head&gt;</span>
+    <span class="s0">{% </span><span class="s1">include </span><span class="s7">'head.html' </span><span class="s0">%}</span>
+        <span class="s4">&lt;title&gt;</span><span class="s3">Products B|M</span><span class="s4">&lt;/title&gt;</span>
+    <span class="s4">&lt;/head&gt;</span>
+    <span class="s4">&lt;body&gt;</span>
+        <span class="s4">&lt;header </span><span class="s6">class</span><span class="s8">=&quot;nav-relative&quot;</span><span class="s4">&gt;</span>
+            <span class="s0">{% </span><span class="s1">include </span><span class="s7">'navbar.html' </span><span class="s0">%}</span>
+        <span class="s4">&lt;/header&gt;</span>
+        <span class="s9">&lt;!-- Contact Section --&gt;</span>
+        <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;contact&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s6">class</span><span class="s8">=&quot;whatsapp&quot; </span><span class="s6">href</span><span class="s8">=&quot;https://wa.me/0692030191&quot; </span><span class="s6">target</span><span class="s8">=&quot;_blank&quot;</span><span class="s4">&gt;&lt;i </span><span class="s6">class</span><span class="s8">=&quot;fa fa-whatsapp&quot; </span><span class="s6">aria-hidden</span><span class="s8">=&quot;true&quot;</span><span class="s4">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+    <span class="s9">&lt;!-- End of Third Section --&gt;</span>
+        <span class="s9">&lt;!-- First Section --&gt;</span>
+            <span class="s4">&lt;section </span><span class="s6">class</span><span class="s8">=&quot;section&quot; </span><span class="s6">id</span><span class="s8">=&quot;section1&quot;</span><span class="s4">&gt;</span>
+                <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;container-one&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;title-ima&quot;</span><span class="s4">&gt;&lt;h1&gt;</span><span class="s3">MAN'S CHOICE</span><span class="s4">&lt;/h1&gt;&lt;/div&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;grid-all&quot;</span><span class="s4">&gt;</span>
+                        <span class="s0">{% </span><span class="s1">for </span><span class="s2">i </span><span class="s10">in </span><span class="s2">products </span><span class="s0">%}</span>
+                          <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;product-all&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s8">=&quot;img-overf&quot;</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;a </span><span class="s6">href</span><span class="s8">=&quot;Products.html&quot;</span><span class="s4">&gt;&lt;img </span><span class="s6">src</span><span class="s8">=&quot;</span><span class="s0">{{ </span><span class="s2">i</span><span class="s0">.</span><span class="s2">image</span><span class="s0">.</span><span class="s2">url </span><span class="s0">}}</span><span class="s8">&quot;</span><span class="s4">&gt;&lt;/a&gt;&lt;/div&gt;</span>
+                            <span class="s4">&lt;h5 </span><span class="s6">class</span><span class="s8">=&quot;title-all pad-all&quot;</span><span class="s4">&gt;</span><span class="s0">{{ </span><span class="s2">i</span><span class="s0">.</span><span class="s2">category </span><span class="s0">}}</span><span class="s4">&lt;/h5&gt;</span>
+                            <span class="s4">&lt;h6 </span><span class="s6">class</span><span class="s8">=&quot;exp-all pad-all&quot;</span><span class="s4">&gt;</span><span class="s0">{{ </span><span class="s2">i</span><span class="s0">.</span><span class="s2">name</span><span class="s0">}}</span><span class="s4">&lt;/h6&gt;</span>
+                             <span class="s4">&lt;h6 </span><span class="s6">class</span><span class="s8">=&quot;pr-all pad-all&quot;</span><span class="s4">&gt;&lt;strong&gt;</span><span class="s3">$</span><span class="s0">{{ </span><span class="s2">i</span><span class="s0">.</span><span class="s2">price </span><span class="s0">}}</span><span class="s4">&lt;/strong&gt;&lt;/h6&gt;</span>
+                            <span class="s4">&lt;h6 </span><span class="s6">class</span><span class="s8">=&quot;heart-all &quot;</span><span class="s4">&gt;&lt;i </span><span class="s6">class</span><span class="s8">=&quot;fa ab fa-heart-o&quot; </span><span class="s6">aria-hidden</span><span class="s8">=&quot;true&quot;</span><span class="s4">&gt;&lt;/i&gt;&lt;/h6&gt;</span>
+                        <span class="s4">&lt;/div&gt;</span>
+                        <span class="s0">{% </span><span class="s1">endfor </span><span class="s0">%}</span>
+                    <span class="s4">&lt;/div&gt;</span>
+            <span class="s4">&lt;/section&gt;</span>
+         <span class="s9">&lt;!-- Footer --&gt;</span>
+         <span class="s4">&lt;footer&gt;</span>
+               <span class="s0">{% </span><span class="s1">include </span><span class="s7">'footer.html' </span><span class="s0">%}</span>
+            <span class="s4">&lt;/footer&gt;</span>
+        <span class="s9">&lt;!-- End of Footer --&gt;</span>
+   <span class="s0">{% </span><span class="s1">include </span><span class="s7">'script.html' </span><span class="s0">%}</span>
+    <span class="s4">&lt;/body&gt;</span>
+<span class="s4">&lt;/html&gt;</span>
+                </pre>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>footer.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #e8bf6a;}
+.s2 { color: #bababa;}
+.s3 { color: #a9b7c6;}
+.s4 { color: #e8bf6a;}
+.s5 { color: #bababa;}
+.s6 { color: #a5c261;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+footer.html</font>
+</center></td></tr></table>
+<pre><span class="s0">{% </span><span class="s1">load </span><span class="s2">static </span><span class="s0">%}</span>
+<span class="s4">&lt;div </span><span class="s5">class</span><span class="s6">=&quot;container-one&quot;</span><span class="s4">&gt;</span>
+                <span class="s4">&lt;div </span><span class="s5">class</span><span class="s6">=&quot;footer-main&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s5">class</span><span class="s6">=&quot;footer-item&quot;</span><span class="s4">&gt;&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h2 </span><span class="s5">class</span><span class="s6">=&quot;text-small&quot;</span><span class="s4">&gt;</span><span class="s0">{{ </span><span class="s2">footer1</span><span class="s0">.</span><span class="s2">name </span><span class="s0">}}</span><span class="s4">&lt;/h2&gt;&lt;/a&gt;</span>
+                    <span class="s4">&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s0">{{ </span><span class="s2">footer1</span><span class="s0">.</span><span class="s2">copyright </span><span class="s0">}}  </span><span class="s4">&lt;/h4&gt;</span>
+                        <span class="s4">&lt;form </span><span class="s5">class</span><span class="s6">=&quot;foot-form&quot; </span><span class="s5">method</span><span class="s6">=&quot;post&quot; </span><span class="s5">action</span><span class="s6">=&quot;/subscribe/&quot;</span><span class="s4">&gt;</span>
+                            <span class="s0">{% </span><span class="s1">csrf_token </span><span class="s0">%}</span>
+                            <span class="s4">&lt;input </span><span class="s5">type</span><span class="s6">=&quot;email&quot; </span><span class="s5">name</span><span class="s6">=&quot;subscribe&quot; </span><span class="s5">class</span><span class="s6">=&quot;foot-input&quot; </span><span class="s5">placeholder</span><span class="s6">=&quot;SUBSCRIBE HERE&quot; </span><span class="s5">required</span><span class="s4">&gt;</span>
+                            <span class="s4">&lt;button </span><span class="s5">class</span><span class="s6">=&quot;foot-button&quot;</span><span class="s4">&gt;</span><span class="s3">GO</span><span class="s4">&lt;/button&gt;</span>
+                        <span class="s4">&lt;/form&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s5">class</span><span class="s6">=&quot;footer-item&quot;</span><span class="s4">&gt;&lt;h2 </span><span class="s5">class</span><span class="s6">=&quot;text-small&quot;</span><span class="s4">&gt;</span><span class="s3">QUICK ACCESS</span><span class="s4">&lt;/h2&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s3">ALL ARTICLES</span><span class="s4">&lt;/h4&gt;&lt;/a&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s3">NEWEST ARTICLES</span><span class="s4">&lt;/h4&gt;&lt;/a&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s3">MOST CLICKED</span><span class="s4">&lt;/h4&gt;&lt;/a&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s3">TOP ARTICLES</span><span class="s4">&lt;/h4&gt;&lt;/a&gt;</span>
+
+                    <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s5">class</span><span class="s6">=&quot;footer-item&quot;</span><span class="s4">&gt;&lt;h2 </span><span class="s5">class</span><span class="s6">=&quot;text-small&quot;</span><span class="s4">&gt;</span><span class="s3">FOR USERS</span><span class="s4">&lt;/h2&gt;</span>
+                        <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s3">REGISTER</span><span class="s4">&lt;/h4&gt;&lt;/a&gt;</span>
+                        <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s3">LOGIN</span><span class="s4">&lt;/h4&gt;&lt;/a&gt;</span>
+                     <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s3">PRIVACY POLICY</span><span class="s4">&lt;/h4&gt; &lt;/a&gt;</span>
+                     <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt; </span><span class="s3">TERMS &amp; CONDITIONS</span><span class="s4">&lt;/h4&gt; &lt;/a&gt;</span>
+
+                    <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s5">class</span><span class="s6">=&quot;footer-item&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;h2 </span><span class="s5">class</span><span class="s6">=&quot;text-small&quot;</span><span class="s4">&gt;</span><span class="s3">FIND US AT</span><span class="s4">&lt;/h2&gt;</span>
+                    <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s0">{{ </span><span class="s2">footer1</span><span class="s0">.</span><span class="s2">instagram </span><span class="s0">}}</span><span class="s4">&lt;/h4&gt;&lt;/a&gt;</span>
+                        <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s0">{{ </span><span class="s2">footer1</span><span class="s0">.</span><span class="s2">number </span><span class="s0">}}</span><span class="s4">&lt;/h4&gt;&lt;/a&gt;</span>
+                        <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s0">{{ </span><span class="s2">footer1</span><span class="s0">.</span><span class="s2">email1 </span><span class="s0">}}</span><span class="s4">&lt;/h4&gt;&lt;/a&gt;</span>
+                        <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;&lt;h4 </span><span class="s5">class</span><span class="s6">=&quot;text-simple&quot;</span><span class="s4">&gt;</span><span class="s0">{{ </span><span class="s2">footer1</span><span class="s0">.</span><span class="s2">email2 </span><span class="s0">}}</span><span class="s4">&lt;/h4&gt;&lt;/a&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;/div&gt;</span></pre>
+</body>
+</html>

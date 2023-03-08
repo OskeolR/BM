@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>form.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #e8bf6a;}
+.s2 { color: #bababa;}
+.s3 { color: #a9b7c6;}
+.s4 { color: #e8bf6a;}
+.s5 { color: #6a8759;}
+.s6 { color: #bababa;}
+.s7 { color: #a5c261;}
+.s8 { color: #808080;}
+.s9 { color: #cc7832;}
+.s10 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+form.html</font>
+</center></td></tr></table>
+<pre><span class="s0">{% </span><span class="s1">load </span><span class="s2">static </span><span class="s0">%}</span>
+<span class="s3">&lt;!DOCKType html&gt;</span>
+<span class="s4">&lt;html&gt;</span>
+      <span class="s4">&lt;head&gt; </span>
+          <span class="s4">&lt;title&gt;&lt;/title&gt; </span>
+          <span class="s0">{% </span><span class="s1">include </span><span class="s5">'head.html' </span><span class="s0">%}</span>
+      <span class="s4">&lt;/head&gt;</span>
+    <span class="s4">&lt;body&gt;</span>
+        <span class="s4">&lt;header </span><span class="s6">class</span><span class="s7">=&quot;nav-relative nav-black&quot;</span><span class="s4">&gt;</span>
+            <span class="s0">{% </span><span class="s1">include </span><span class="s5">'navbar.html' </span><span class="s0">%}</span>
+        <span class="s4">&lt;/header&gt;</span>
+         <span class="s4">&lt;section </span><span class="s6">class</span><span class="s7">=&quot;section1&quot;</span><span class="s4">&gt;</span>
+            <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;div-bg-fr&quot;</span><span class="s4">&gt;</span>
+                <span class="s4">&lt;h1 </span><span class="s6">class</span><span class="s7">=&quot;form-h1-s&quot;</span><span class="s4">&gt;</span><span class="s3">Join Our Community</span><span class="s4">&lt;/h1&gt;</span>
+                <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;grid-form&quot;</span><span class="s4">&gt;</span>
+            <span class="s4">&lt;form </span><span class="s6">id</span><span class="s7">=&quot;form11&quot; </span><span class="s6">method</span><span class="s7">=&quot;POST&quot; </span><span class="s6">action</span><span class="s7">=&quot;/form/&quot;</span><span class="s4">&gt;</span>
+                <span class="s0">{% </span><span class="s1">csrf_token </span><span class="s0">%}</span>
+                <span class="s0">{% </span><span class="s1">if </span><span class="s2">user_error </span><span class="s0">%}</span>
+                    <span class="s4">&lt;h2&gt;</span><span class="s0">{{ </span><span class="s2">user_error </span><span class="s0">}}</span><span class="s4">&lt;/h2&gt;</span>
+                <span class="s0">{% </span><span class="s1">endif </span><span class="s0">%}</span>
+                    <span class="s4">&lt;h3 </span><span class="s6">class</span><span class="s7">=&quot;form-h3-s&quot;</span><span class="s4">&gt;</span><span class="s3">Fill out the information below</span><span class="s4">&lt;/h3&gt;</span>
+
+                <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;div111&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;form-group&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;input </span><span class="s6">type</span><span class="s7">=&quot;text&quot; </span><span class="s6">id</span><span class="s7">=&quot;name&quot; </span><span class="s6">name</span><span class="s7">=&quot;emri&quot; </span><span class="s6">placeholder</span><span class="s7">=&quot;Name here...&quot; </span><span class="s6">required</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;form-group&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;input </span><span class="s6">type</span><span class="s7">=&quot;text&quot; </span><span class="s6">id</span><span class="s7">=&quot;surname&quot;  </span><span class="s6">name</span><span class="s7">=&quot;mbiemri&quot; </span><span class="s6">placeholder</span><span class="s7">=&quot;Surname here...&quot; </span><span class="s6">required</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;div1&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;form-group&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;input </span><span class="s6">type</span><span class="s7">=&quot;email&quot; </span><span class="s6">id</span><span class="s7">=&quot;email&quot;  </span><span class="s6">name</span><span class="s7">=&quot;email&quot; </span><span class="s6">placeholder</span><span class="s7">=&quot;E-mail here...&quot; </span><span class="s6">required</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;form-group&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;input </span><span class="s6">type</span><span class="s7">=&quot;tel&quot; </span><span class="s6">id</span><span class="s7">=&quot;phone&quot;  </span><span class="s6">name</span><span class="s7">=&quot;telefon&quot; </span><span class="s6">placeholder</span><span class="s7">=&quot;Phone here...&quot; </span><span class="s6">required</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;div1&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;form-group&quot;</span><span class="s4">&gt;</span>
+<span class="s8">{#                        &lt;label for =&quot;coment&quot; form=&quot;form1&quot;&gt; Comment *&lt;/label&gt;#}</span>
+                        <span class="s4">&lt;textarea </span><span class="s6">type</span><span class="s7">=&quot;coment&quot; </span><span class="s6">id</span><span class="s7">=&quot;coment&quot;  </span><span class="s6">name</span><span class="s7">=&quot;comment&quot; </span><span class="s6">placeholder</span><span class="s7">=&quot;Comment here...&quot; </span><span class="s6">required</span><span class="s4">&gt;&lt;/textarea&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;label&gt;</span><span class="s3">I'M NOT A ROBOT!</span><span class="s4">&lt;/label&gt;</span>
+                <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;google-recaptcha&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;g-recaptcha&quot; </span><span class="s6">data-sitekey</span><span class="s7">=&quot;6Lcu418kAAAAAE1G-HrIdUe0YSxuaAcVn8enDq8e&quot; </span><span class="s6">data-callback</span><span class="s7">=&quot;enableBtn&quot;</span><span class="s4">&gt;&lt;/div&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+                <span class="s4">&lt;div </span><span class="s6">id</span><span class="s7">=&quot;div1&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;button </span><span class="s6">id</span><span class="s7">=&quot;button1&quot; </span><span class="s6">disabled</span><span class="s4">&gt;</span><span class="s3">REGISTER NOW</span><span class="s4">&lt;/button&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+            <span class="s4">&lt;/form&gt;</span>
+                    <span class="s4">&lt;div </span><span class="s6">class</span><span class="s7">=&quot;form-img&quot;</span><span class="s4">&gt;</span>
+                        <span class="s4">&lt;img </span><span class="s6">class</span><span class="s7">=&quot;img-join&quot; </span><span class="s6">src</span><span class="s7">=&quot;</span><span class="s0">{% </span><span class="s1">static </span><span class="s5">'images/56.jpg' </span><span class="s0">%}</span><span class="s7">&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+                    <span class="s4">&lt;/div&gt;</span>
+            <span class="s4">&lt;/div&gt;  </span>
+        <span class="s4">&lt;/section&gt;</span>
+            <span class="s4">&lt;footer&gt;</span>
+                <span class="s0">{% </span><span class="s1">include </span><span class="s5">'footer.html' </span><span class="s0">%}</span>
+            <span class="s4">&lt;/footer&gt;</span>
+    <span class="s0">{% </span><span class="s1">include </span><span class="s5">'script.html' </span><span class="s0">%}</span>
+<span class="s8">{#        &lt;script src=&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;&gt;&lt;/script&gt;#}</span>
+<span class="s8">{#        &lt;script src=&quot;https://cdn.jsdelivr.net/npm/sweetalert2@10&quot;&gt;&lt;/script&gt;#}</span>
+<span class="s8">{#    &lt;script&gt;#}</span>
+<span class="s8">{#   $(document).ready(function() {#}</span>
+<span class="s8">{#  $('#form11').submit(function(event) {#}</span>
+<span class="s8">{#    event.preventDefault();#}</span>
+<span class="s8">{##}</span>
+<span class="s8">{#    Swal.fire({#}</span>
+<span class="s8">{#  title: 'Success!',#}</span>
+<span class="s8">{#  text: 'Your message was received. We will contact you within 24 hours.',#}</span>
+<span class="s8">{#  icon: 'success',#}</span>
+<span class="s8">{#  confirmButtonColor: '#000000'#}</span>
+<span class="s3">{</span><span class="s0">#}</span><span class="s3">).then((result) =&gt; {</span><span class="s0">#}</span>
+<span class="s8">{#  if (result.value) {#}</span>
+<span class="s8">{#    $('#form11')[0].reset();#}</span>
+<span class="s8">{#  }#}</span>
+<span class="s3">{</span><span class="s0">#}</span><span class="s3">);</span><span class="s0">#}</span>
+<span class="s8">{#  });#}</span>
+<span class="s3">{</span><span class="s0">#}</span><span class="s3">);</span><span class="s0">#}</span>
+<span class="s8">{#    &lt;/script&gt;#}</span>
+     <span class="s4">&lt;script </span><span class="s6">src</span><span class="s7">=&quot;https://www.google.com/recaptcha/api.js&quot; </span><span class="s6">async defer</span><span class="s4">&gt;&lt;/script&gt;</span>
+    <span class="s4">&lt;script&gt;</span>
+        <span class="s9">function </span><span class="s3">enableBtn(){</span>
+            <span class="s3">document.getElementById(</span><span class="s10">&quot;button1&quot;</span><span class="s3">).disabled = </span><span class="s9">false;</span>
+        <span class="s3">}</span>
+    <span class="s4">&lt;/script&gt;</span>
+    <span class="s4">&lt;/body&gt;</span>
+<span class="s4">&lt;/html&gt;</span></pre>
+</body>
+</html>

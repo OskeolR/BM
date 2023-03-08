@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>navbar.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #e8bf6a;}
+.s2 { color: #bababa;}
+.s3 { color: #a9b7c6;}
+.s4 { color: #e8bf6a;}
+.s5 { color: #bababa;}
+.s6 { color: #a5c261;}
+.s7 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+navbar.html</font>
+</center></td></tr></table>
+<pre><span class="s0">{% </span><span class="s1">load </span><span class="s2">static </span><span class="s0">%}</span>
+            <span class="s4">&lt;nav </span><span class="s5">class</span><span class="s6">=&quot;navbar navbar-expand-lg&quot;</span><span class="s4">&gt;</span>
+              <span class="s4">&lt;div </span><span class="s5">class</span><span class="s6">=&quot;container-fluid&quot;</span><span class="s4">&gt;</span>
+                <span class="s4">&lt;a </span><span class="s5">class</span><span class="s6">=&quot;navbar-brand&quot; </span><span class="s5">href</span><span class="s6">=&quot;/index/&quot;</span><span class="s4">&gt;</span><span class="s3">B|M</span><span class="s4">&lt;/a&gt;</span>
+                <span class="s4">&lt;button </span><span class="s5">class</span><span class="s6">=&quot;navbar-toggler&quot; </span><span class="s5">type</span><span class="s6">=&quot;button&quot; </span><span class="s5">data-bs-toggle</span><span class="s6">=&quot;collapse&quot; </span><span class="s5">data-bs-target</span><span class="s6">=&quot;#navbarSupportedContent&quot; </span><span class="s5">aria-controls</span><span class="s6">=&quot;navbarSupportedContent&quot; </span><span class="s5">aria-expanded</span><span class="s6">=&quot;false&quot; </span><span class="s5">aria-label</span><span class="s6">=&quot;Toggle navigation&quot;</span><span class="s4">&gt;</span>
+                  <span class="s4">&lt;span </span><span class="s5">class</span><span class="s6">=&quot;navbar-toggler-icon&quot;</span><span class="s4">&gt;&lt;/span&gt;</span>
+                <span class="s4">&lt;/button&gt;</span>
+                <span class="s4">&lt;div </span><span class="s5">class</span><span class="s6">=&quot;collapse navbar-collapse&quot; </span><span class="s5">id</span><span class="s6">=&quot;navbarSupportedContent&quot;</span><span class="s4">&gt;</span>
+                  <span class="s4">&lt;ul </span><span class="s5">class</span><span class="s6">=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;li </span><span class="s5">class</span><span class="s6">=&quot;nav-item&quot;</span><span class="s4">&gt;</span>
+                        <span class="s0">{% </span><span class="s1">if </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/men/' </span><span class="s0">%}</span>
+                      <span class="s4">&lt;a </span><span class="s5">class</span><span class="s6">=&quot;nav-link active&quot; </span><span class="s5">aria-current</span><span class="s6">=&quot;page&quot; </span><span class="s5">href</span><span class="s6">=&quot;/men/&quot;</span><span class="s4">&gt;</span><span class="s3">Home</span><span class="s4">&lt;/a&gt;</span>
+                            <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/products/' </span><span class="s0">%}</span>
+                             <span class="s4">&lt;a </span><span class="s5">class</span><span class="s6">=&quot;nav-link active&quot; </span><span class="s5">aria-current</span><span class="s6">=&quot;page&quot; </span><span class="s5">href</span><span class="s6">=&quot;/men/&quot;</span><span class="s4">&gt;</span><span class="s3">Home</span><span class="s4">&lt;/a&gt;</span>
+                            <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/products_female/' </span><span class="s0">%}</span>
+                             <span class="s4">&lt;a </span><span class="s5">class</span><span class="s6">=&quot;nav-link active&quot; </span><span class="s5">aria-current</span><span class="s6">=&quot;page&quot; </span><span class="s5">href</span><span class="s6">=&quot;/female/&quot;</span><span class="s4">&gt;</span><span class="s3">Home</span><span class="s4">&lt;/a&gt;</span>
+                            <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/female/' </span><span class="s0">%}</span>
+                             <span class="s4">&lt;a </span><span class="s5">class</span><span class="s6">=&quot;nav-link active&quot; </span><span class="s5">aria-current</span><span class="s6">=&quot;page&quot; </span><span class="s5">href</span><span class="s6">=&quot;/female/&quot;</span><span class="s4">&gt;</span><span class="s3">Home</span><span class="s4">&lt;/a&gt;</span>
+                            <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/form/' </span><span class="s0">%}</span>
+                             <span class="s4">&lt;a </span><span class="s5">class</span><span class="s6">=&quot;nav-link active&quot; </span><span class="s5">aria-current</span><span class="s6">=&quot;page&quot; </span><span class="s5">href</span><span class="s6">=&quot;/index/&quot;</span><span class="s4">&gt;</span><span class="s3">Home</span><span class="s4">&lt;/a&gt;</span>
+                            <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/payment/' </span><span class="s0">%}</span>
+                             <span class="s4">&lt;a </span><span class="s5">class</span><span class="s6">=&quot;nav-link active&quot; </span><span class="s5">aria-current</span><span class="s6">=&quot;page&quot; </span><span class="s5">href</span><span class="s6">=&quot;/index/&quot;</span><span class="s4">&gt;</span><span class="s3">Home</span><span class="s4">&lt;/a&gt;</span>
+
+                        <span class="s0">{% </span><span class="s1">endif </span><span class="s0">%}</span>
+                    <span class="s4">&lt;/li&gt;</span>
+
+                    <span class="s4">&lt;li </span><span class="s5">class</span><span class="s6">=&quot;nav-item dropdown&quot;</span><span class="s4">&gt;</span>
+                      <span class="s4">&lt;a </span><span class="s5">class</span><span class="s6">=&quot;nav-link dropdown-toggle&quot; </span><span class="s5">href</span><span class="s6">=&quot;#&quot; </span><span class="s5">id</span><span class="s6">=&quot;navbarDropdown&quot; </span><span class="s5">role</span><span class="s6">=&quot;button&quot; </span><span class="s5">data-bs-toggle</span><span class="s6">=&quot;dropdown&quot; </span><span class="s5">aria-expanded</span><span class="s6">=&quot;false&quot;</span><span class="s4">&gt;</span>
+                        <span class="s3">Shop Now</span>
+                      <span class="s4">&lt;/a&gt;</span>
+                      <span class="s4">&lt;ul </span><span class="s5">class</span><span class="s6">=&quot;dropdown-menu&quot; </span><span class="s5">aria-labelledby</span><span class="s6">=&quot;navbarDropdown&quot;</span><span class="s4">&gt;</span>
+                          <span class="s0">{% </span><span class="s1">if </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/men/' </span><span class="s0">%}</span>
+                          <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/female/&quot;</span><span class="s4">&gt;</span><span class="s3">WOMAN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                              <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/form/' </span><span class="s0">%}</span>
+                               <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/female/&quot;</span><span class="s4">&gt;</span><span class="s3">WOMAN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                              <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/products/' </span><span class="s0">%}</span>
+                              <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/products_female/&quot;</span><span class="s4">&gt;</span><span class="s3">WOMAN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                              <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/products_female/' </span><span class="s0">%}</span>
+                              <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/female/&quot;</span><span class="s4">&gt;</span><span class="s3">WOMAN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                              <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/female/' </span><span class="s0">%}</span>
+                              <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/products_female/&quot;</span><span class="s4">&gt;</span><span class="s3">WOMAN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                              <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/payment/' </span><span class="s0">%}</span>
+                              <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/female/&quot;</span><span class="s4">&gt;</span><span class="s3">WOMAN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                          <span class="s0">{% </span><span class="s1">endif </span><span class="s0">%}</span>
+                        <span class="s4">&lt;li&gt;&lt;hr </span><span class="s5">class</span><span class="s6">=&quot;dropdown-divider&quot;</span><span class="s4">&gt;&lt;/li&gt;</span>
+                      <span class="s0">{% </span><span class="s1">if </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/men/' </span><span class="s0">%}</span>
+                        <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/products/&quot;</span><span class="s4">&gt;</span><span class="s3">MEN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                          <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/products/' </span><span class="s0">%}</span>
+                          <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/men/&quot;</span><span class="s4">&gt;</span><span class="s3">MEN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                          <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/form/' </span><span class="s0">%}</span>
+                          <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/men/&quot;</span><span class="s4">&gt;</span><span class="s3">MEN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                          <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/products_female/' </span><span class="s0">%}</span>
+                          <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/products/&quot;</span><span class="s4">&gt;</span><span class="s3">MEN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                          <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/female/' </span><span class="s0">%}</span>
+                          <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/men/&quot;</span><span class="s4">&gt;</span><span class="s3">MEN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                            <span class="s0">{% </span><span class="s1">elif </span><span class="s2">request</span><span class="s0">.</span><span class="s2">path </span><span class="s0">== </span><span class="s7">'/payment/' </span><span class="s0">%}</span>
+                          <span class="s4">&lt;li&gt;&lt;a </span><span class="s5">class</span><span class="s6">=&quot;dropdown-item&quot; </span><span class="s5">href</span><span class="s6">=&quot;/men/&quot;</span><span class="s4">&gt;</span><span class="s3">MEN</span><span class="s4">&lt;/a&gt;&lt;/li&gt;</span>
+                      <span class="s0">{% </span><span class="s1">endif </span><span class="s0">%}</span>
+                      <span class="s4">&lt;/ul&gt;</span>
+                    <span class="s4">&lt;/li&gt;</span>
+                      <span class="s4">&lt;li </span><span class="s5">class</span><span class="s6">=&quot;nav-item&quot;</span><span class="s4">&gt;</span>
+                      <span class="s4">&lt;a </span><span class="s5">class</span><span class="s6">=&quot;nav-link&quot; </span><span class="s5">href</span><span class="s6">=&quot;/payment/&quot;</span><span class="s4">&gt;</span><span class="s3">Cart</span><span class="s4">&lt;/a&gt;</span>
+                    <span class="s4">&lt;/li&gt;</span>
+                    <span class="s4">&lt;li </span><span class="s5">class</span><span class="s6">=&quot;nav-item&quot;</span><span class="s4">&gt;</span>
+                      <span class="s4">&lt;a </span><span class="s5">class</span><span class="s6">=&quot;nav-link&quot; </span><span class="s5">href</span><span class="s6">=&quot;/form/&quot;</span><span class="s4">&gt;</span><span class="s3">Support</span><span class="s4">&lt;/a&gt;</span>
+                    <span class="s4">&lt;/li&gt;</span>
+                  <span class="s4">&lt;/ul&gt;</span>
+                  <span class="s4">&lt;form </span><span class="s5">class</span><span class="s6">=&quot;d-flex&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;input </span><span class="s5">class</span><span class="s6">=&quot;form-1&quot; </span><span class="s5">type</span><span class="s6">=&quot;search&quot; </span><span class="s5">placeholder</span><span class="s6">=&quot;Search&quot; </span><span class="s5">aria-label</span><span class="s6">=&quot;Search&quot;</span><span class="s4">&gt;</span>
+                    <span class="s4">&lt;button </span><span class="s5">class</span><span class="s6">=&quot;nav-butt&quot; </span><span class="s5">type</span><span class="s6">=&quot;submit&quot;</span><span class="s4">&gt;&lt;i </span><span class="s5">class</span><span class="s6">=&quot;fa fa-search&quot; </span><span class="s5">aria-hidden</span><span class="s6">=&quot;true&quot;</span><span class="s4">&gt;&lt;/i&gt;&lt;/button&gt;</span>
+                  <span class="s4">&lt;/form&gt;</span>
+                <span class="s4">&lt;/div&gt;</span>
+              <span class="s4">&lt;/div&gt;</span>
+            <span class="s4">&lt;/nav&gt;</span></pre>
+</body>
+</html>
